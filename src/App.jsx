@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Button variant="contained">Contained</Button>
+      <Button variant="contained">Click Me!</Button>
     </>
   )
 }
