@@ -9,7 +9,7 @@ export default function SearchBox() {
         <div className="SearchBox">
             <h3>Search for the Weather</h3>
             <form>
-            <TextField id="city" label="City Name" variant="outlined" required/>
+            <TextField id="city" label="City Name" variant="outlined" required value={city}/>
             <br></br>
             <br></br>
             <Button variant="contained" type="submit">Search</Button>
