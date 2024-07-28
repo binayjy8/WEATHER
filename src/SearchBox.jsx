@@ -9,7 +9,8 @@ export default function SearchBox() {
     const API_KEY = "d9ac93f50dfecb569ee32b0d420485de";
 
     let getWeatherInfo = async () => {
-        await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`);
+        let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`);
+        let jsonResponse = await response.json();
     }
 
     let handleChange = (evt) => {
