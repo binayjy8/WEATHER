@@ -11,6 +11,9 @@ export default function SearchBox() {
     let getWeatherInfo = async () => {
         let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`);
         let jsonResponse = await response.json();
+        let result = {
+            
+        }
     }
 
     let handleChange = (evt) => {
