@@ -21,6 +21,7 @@ export default function SearchBox() {
         evt.preventDefault();
         console.log(city);
         setCity("");
+        getWeatherInfo();
     }
     return (
         <div className="SearchBox">
