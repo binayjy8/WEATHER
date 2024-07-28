@@ -5,6 +5,9 @@ import { useState } from 'react';
 
 export default function SearchBox() {
     let [city, setCity] = useState("");
+    let handleChange = (evt) => {
+        setCity(evt.target.value);
+    }
     return (
         <div className="SearchBox">
             <h3>Search for the Weather</h3>
